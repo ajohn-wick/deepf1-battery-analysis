@@ -1,0 +1,16 @@
+.DS_Store
+
+.vscode
+!jest.config.js
+*.d.ts
+*.js
+node_modules
+package-lock.json
+
+resources/lambda/!jest.config.js
+resources/lambda/*.d.ts
+resources/glue/*.d.ts
+
+# CDK asset staging directory
+.cdk.staging
+cdk.out
